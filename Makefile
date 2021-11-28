@@ -2049,7 +2049,7 @@ EXTRA_CFLAGS += -DCONFIG_LITTLE_ENDIAN
 EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE
 EXTRA_CFLAGS += -DCONFIG_IOCTL_CFG80211 -DRTW_USE_CFG80211_STA_EVENT
 ARCH := arm
-CROSS_COMPILE := /home/qhuyduong/cabinet/android/android-4.4/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-
+CROSS_COMPILE := /home/qhuyduong/cabinet/android/telechips-sdk/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6/bin/arm-eabi-
 KSRC := /home/qhuyduong/cabinet/android/kernel-tcc897x
 MODULE_NAME := wlan
 endif
